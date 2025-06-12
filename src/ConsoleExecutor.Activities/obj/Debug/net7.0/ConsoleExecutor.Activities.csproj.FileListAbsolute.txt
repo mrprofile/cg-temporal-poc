@@ -1,0 +1,15 @@
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleExecutor.Activities.csproj.AssemblyReference.cache
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleExecutor.Activities.GeneratedMSBuildEditorConfig.editorconfig
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleExecutor.Activities.AssemblyInfoInputs.cache
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleExecutor.Activities.AssemblyInfo.cs
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleExecutor.Activities.csproj.CoreCompileInputs.cache
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\bin\Debug\net7.0\ConsoleExecutor.Activities.deps.json
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\bin\Debug\net7.0\ConsoleExecutor.Activities.dll
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\bin\Debug\net7.0\ConsoleExecutor.Activities.pdb
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\bin\Debug\net7.0\ConsoleExecutor.Common.dll
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\bin\Debug\net7.0\ConsoleExecutor.Common.pdb
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleE.86700FAE.Up2Date
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleExecutor.Activities.dll
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\refint\ConsoleExecutor.Activities.dll
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ConsoleExecutor.Activities.pdb
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Activities\obj\Debug\net7.0\ref\ConsoleExecutor.Activities.dll

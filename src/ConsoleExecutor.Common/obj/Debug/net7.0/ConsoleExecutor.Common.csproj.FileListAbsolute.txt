@@ -1,0 +1,11 @@
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\bin\Debug\net7.0\ConsoleExecutor.Common.deps.json
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\bin\Debug\net7.0\ConsoleExecutor.Common.dll
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\bin\Debug\net7.0\ConsoleExecutor.Common.pdb
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\ConsoleExecutor.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\ConsoleExecutor.Common.AssemblyInfoInputs.cache
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\ConsoleExecutor.Common.AssemblyInfo.cs
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\ConsoleExecutor.Common.csproj.CoreCompileInputs.cache
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\ConsoleExecutor.Common.dll
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\refint\ConsoleExecutor.Common.dll
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\ConsoleExecutor.Common.pdb
+C:\development\poc\Temporal-Poc\src\ConsoleExecutor.Common\obj\Debug\net7.0\ref\ConsoleExecutor.Common.dll
