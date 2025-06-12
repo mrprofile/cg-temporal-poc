@@ -67,6 +67,13 @@ public class ConsoleExecutionWorkflow
 
         try
         {
+            // Check for cancellation before starting
+            if (_cancelRequested)
+            {
+                _status = "Cancelled";
+                throw new ApplicationFailureException("Execution cancelled before starting", nonRetryable: true);
+            }
+
             _status = "Running";
 
             // Execute the console application and get the result
@@ -86,8 +93,16 @@ public class ConsoleExecutionWorkflow
                             "System.InvalidOperationException",
                             "System.IO.FileNotFoundException"
                         }
-                    }
+                    }, 
+                    CancellationType = ActivityCancellationType.TryCancel
                 });
+
+            // Check for cancellation after activity completion
+            if (_cancelRequested)
+            {
+                _status = "Cancelled";
+                throw new ApplicationFailureException("Execution cancelled after completion", nonRetryable: true);
+            }
 
             _status = _result.IsSuccess ? "Completed" : "Failed";
             Workflow.Logger.LogInformation(
@@ -95,6 +110,12 @@ public class ConsoleExecutionWorkflow
                 _result.ExitCode);
 
             return _result;
+        }
+        catch (Exception ex) when (_cancelRequested)
+        {
+            _status = "Cancelled";
+            Workflow.Logger.LogInformation("Console application execution was cancelled");
+            throw new ApplicationFailureException("Execution cancelled by user", ex, nonRetryable: true);
         }
         catch (Exception ex)
         {
