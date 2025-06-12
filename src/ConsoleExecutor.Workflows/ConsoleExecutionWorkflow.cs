@@ -18,6 +18,7 @@ public class ConsoleExecutionWorkflow
     private string _status = "Pending";
     private int _attempts = 0;
     private Exception? _lastError;
+    private bool _cancelRequested = false;
 
     /// <summary>
     /// Query to get the current execution status
@@ -41,10 +42,12 @@ public class ConsoleExecutionWorkflow
     /// Signal to cancel an in-progress execution
     /// </summary>
     [WorkflowSignal]
-    public void Cancel()
+    public async Task Cancel()
     {
         Workflow.Logger.LogInformation("Received cancellation signal");
-        throw new ApplicationFailureException("Execution cancelled by user", nonRetryable: true);
+        _cancelRequested = true;
+        _status = "Cancelling";
+        await Task.CompletedTask;
     }
 
     /// <summary>
